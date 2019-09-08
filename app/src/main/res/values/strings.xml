@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">dbs_livelah</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_store">Store</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_app">App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_1">User 1</string>
+    <string name="user_2">User 2</string>
+    <string name="user_4">User 4</string>
+    <string name="user_3">User 3</string>
+    <string name="demonstration_panel">Demonstration Panel</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageview_store_plugin"
+            android:src="@drawable/app_01"
+            android:layout_weight="20"
+            android:padding="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="80"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_store_plugin_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="McDonald's"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_store_plugin_description"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:text="A lightweight plugin to speedup your ordering! Download this application to order from your local McDonald's."
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+
+                />
+
+        </LinearLayout>
+
+<!--        <ImageView-->
+<!--            android:padding="5dp"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="10"-->
+<!--            android:src="@drawable/download_button"-->
+<!--            android:alpha="0.50"-->
+<!--            />-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

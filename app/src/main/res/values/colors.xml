@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed2721</color>
+    <color name="colorPrimaryDark">#cc0000</color>
+    <color name="colorAccent">#2e2e2e</color>
+
+    <color name="colorNavbar">#FFF8F8</color>
+    <color name="colorTapInstall">#F8FFF8</color>
+    <color name="colorTransparentAccent">#802e2e2e</color>
+</resources>
